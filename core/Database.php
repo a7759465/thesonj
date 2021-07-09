@@ -27,7 +27,6 @@ class Database
         if ($name == null) {
             $name = $this->getDefaultConnection();
         }
-        dd($name);
         $config = app('config')->get('database.connections.' . $name);
         $connectionClass = null;
         switch ($config['driver']) {
@@ -39,7 +38,7 @@ class Database
         try {
             $pdo = new \PDO($dsn, $config['username'], $config['password'], $config['options']);
         } catch (\PDOException $e) {
-            echo $dsn;die;
+//            dd($config);
             die($e->getMessage());
         }
         return $this->connections[$name] = new $connectionClass($pdo, $config);

@@ -5,6 +5,14 @@ require __DIR__ . '/../vendor/autoload.php';
 require_once __DIR__ . '/../app.php';
 
 
+
+
+
+
+
+
+
+
 //绑定request先
 App::getContainer()->bind(\core\request\RequestInterface::class, function () {
     return \core\request\PhpRequest::create($_SERVER['REQUEST_URI'], $_SERVER['REQUEST_METHOD'], $_SERVER);

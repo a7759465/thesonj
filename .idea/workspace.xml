@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5de27e9-66ae-4212-a412-d21dd35ae520" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/databases.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mongo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/redis.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/Database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/database/connection/Connection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/database/connection/MysqlConnection.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,8 +67,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625724170569</updated>
-      <workItem from="1625724171981" duration="34253000" />
+      <workItem from="1625724171981" duration="35275000" />
     </task>
+    <task id="LOCAL-00001" summary="writing">
+      <created>1625824349792</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625824349792</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,5 +92,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="writing" />
+    <option name="LAST_COMMIT_MESSAGE" value="writing" />
   </component>
 </project>

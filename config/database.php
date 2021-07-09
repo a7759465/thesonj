@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'default' => '130',
+    'default' => '14',
     'connections' => [
-        '130' => [
+        '14' => [
             'driver' => 'mysql',
-            'host' => '192.168.1.130',
+            'host' => '192.168.1.14',
             'username' => 'root',
             'dbname' => 'csut',
             'password' => '123456',
