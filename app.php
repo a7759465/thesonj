@@ -105,7 +105,9 @@ class App implements Psr\Container\ContainerInterface
         $registers = [      //待绑定服务
             'response' => \core\Response::class,
             'router' => \core\RouteCollection::class,
-            'pipeline' => \core\PipeLine::class
+            'pipeline' => \core\PipeLine::class,
+            'config' => \core\Config::class,
+            'db' => \core\Database::class,
         ];
         foreach ($registers as $name => $concrete) {
             $this->bind($name, $concrete, true);
@@ -114,6 +116,8 @@ class App implements Psr\Container\ContainerInterface
 
     protected function boot()
     {
+        app('config')->init();
+
         app('router')->group(['namespace' => 'App\\controller'], function ($router) {
             require_once FRAME_BASE_PATH . '/routes/web.php';
         });

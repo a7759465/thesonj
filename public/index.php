@@ -1,8 +1,9 @@
 <?php
-
+declare(strict_types=1);
 require __DIR__ . '/../vendor/autoload.php';
 
 require_once __DIR__ . '/../app.php';
+
 
 //绑定request先
 App::getContainer()->bind(\core\request\RequestInterface::class, function () {
@@ -18,6 +19,8 @@ App::getContainer()->bind(\core\request\RequestInterface::class, function () {
 //echo app('router')->dispatch(app(\core\request\RequestInterface::class));die;
 
 //app('response')->setContent(app('router')->dispatch(app(\core\request\RequestInterface::class)))->send();
+
+
 App::getContainer()->get('response')->setContent(
     App::getContainer()->get('router')->dispatch(
         App::getContainer()->get(\core\request\RequestInterface::class)
