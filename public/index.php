@@ -7,7 +7,7 @@ require_once __DIR__ . '/../app.php';
 
 
 
-1
+echo 123;die;
 
 
 
